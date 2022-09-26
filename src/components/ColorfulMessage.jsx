@@ -4,7 +4,7 @@ const ColorfulMessage = (props) => {
   // 分割代入でスッキリと
   const { color, children } = props;
   const contentStyle = {
-    color: color,
+    color,
     fontSize: "18px"
   };
 
