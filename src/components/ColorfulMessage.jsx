@@ -1,6 +1,7 @@
 import React from "react";
 
 const ColorfulMessage = (props) => {
+  // console.log("カラフル");
   // 分割代入でスッキリと
   const { color, children } = props;
   const contentStyle = {
